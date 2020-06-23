@@ -9,4 +9,4 @@ class Job(models.Model):
     # you need to install: pip3 install pillow
     image = models.ImageField(upload_to='images/')
     # summary
-    summary = models.CharField(max_length=200)
+    summary = models.CharField(max_length=300)
